@@ -1,17 +1,6 @@
-/**
- * A Javascript implementation of a Sudoku game, including a
- * backtracking algorithm solver. For example usage see the
- * attached index.html demo.
- *
- * @author Moriel Schottlender
- */
+
 var Sudoku = (function($) {
     var _instance, _game,
-        /**
-         * Default configuration options. These can be overriden
-         * when loading a game instance.
-         * @property {Object}
-         */
         defaultConfig = {
             // If set to true, the game will validate the numbers
             // as the player inserts them. If it is set to false,
